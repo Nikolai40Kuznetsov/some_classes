@@ -83,7 +83,7 @@ class Integral(SquareEquation):
         y = self.calculate(x)
         
         # Создаем график
-        plt.plot(x, y, label=f"∫y dx = ({self.par_a}/3)x³ + ({self.par_b}/2)x² + {self.par_c}x + {self.constant}")
+        plt.plot(x, y, label=f"∫y dx = ({self.par_a}/3)x^3 + ({self.par_b}/2)x^2 + {self.par_c}x + {self.constant}")
         
         # Добавляем подписи осей и заголовок
         plt.xlabel('x')
